@@ -160,3 +160,23 @@
   font-size: 2rem;
   color: #2f2e57;
 }
+/* For screens smaller than 480px (mobiles) */
+@media (max-width: 480px) {
+  .search-top div {
+    font-size: 1.4rem; /* Reduce font size further */
+  }
+
+  .data-name,
+  .data {
+    font-size: 1.6rem; /* Adjust data font sizes */
+  }
+  .container{
+    height: auto;
+    width:auto;
+  }
+}
+.weather-data {
+  flex-wrap: wrap; /* Wrap data items on small screens */
+  justify-content: space-between; /* Distribute items evenly */
+}
+
